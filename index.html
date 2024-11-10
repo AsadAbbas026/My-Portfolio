@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/e8285b3f85.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/" alt="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Python Developer and Mobile App Developer</p>
+                <h1>Hi, I'm <span>Syed Asad<br>Abbas Rizvi</span> From Pakistan</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Hic neque libero ab quis quaerat! Dolorum simili
+                        que in consequuntur ipsum, voluptatum labore doloremque
+                        doloribus, fugit impedit eos aliquam perferendis nihil sit.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>AI Developer</span><br>Building AI Chatbots using Python</li>
+                            <li><span>Data Scientist</span><br>Building Data Science Projects using Python</li>
+                            <li><span>Management Systems</span><br>Creating User-Friendly Management Systems</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Creating Mobile Apps using Flutter</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>June, 2022 - July, 2022</span><br>Internship at OneScreen</li>
+                            <li><span>June, 2023 - July, 2023</span><br>Internship at Quest Lab</li>
+                            <li><span>July, 2024 - September, 2024</span><br>Internship at Quest Lab</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016 - 2018</span><br>Matriculation in Computer Science at Fazaia Inter College Jinnah Camp Rawalpindi</li>
+                            <li><span>2018 - 2020</span><br>Intermediate in Computer Science at Fazaia Inter College Nur Khan Rawalpindi</li>
+                            <li><span>2020 - Current</span><br>Bachelor in Software Engineering at Capital University of Science and Technology</li>
+                            <li><span>June, 2022 - July, 2022</span><br>Internship at OneScreen on Python Development</li>
+                            <li><span>June, 2023 - July, 2023</span><br>Internship at Quest Lab on Web Development</li>
+                            <li><span>July, 2024 - September, 2024</span><br>Internship at Quest Lab on AI Development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>LLM-Powered AI Chatbots</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Inventore animi iste quae temporibus laboriosam suscipit,
+                        necessitatibus dolorum neque ea maxime voluptas quos,
+                        magnam expedita asperiores doloribus consectetur possimus quod perferendis?</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h2>Mobile Application Designs</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla quod eum id officia repellendus, nemo architecto voluptas sed quam earum? Laudantium consequatur aliquid tenetur corrupti atque ratione natus amet error?</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h2>Data Science Projects</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maiores consequatur voluptate, ullam sapiente laborum assumenda reiciendis voluptates esse incidunt quos aperiam! A rem accusamus animi ducimus modi? Quos, ducimus!</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/chatbot.jpeg" alt="Chatbot">
+                    <div class="layer">
+                        <h3>LLM Chatbot</h3>
+                        <p>The Chatbot that can helps you whenever you need it</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/data_cleaning.png" alt="Data Cleaner">
+                    <div class="layer">
+                        <h3>Automated Data Cleaner</h3>
+                        <p>Automating the Process for Cleaning the Data whenever it is needed</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/mobileapps.png" alt="Mobile App Designs">
+                    <div class="layer">
+                        <h3>Mobile Application Designs</h3>
+                        <p>Designs that would bloom your Mobile App</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>aarizy.2k@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+92-319-7054099</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/syed-asad-abbas-rizvi-590b06243/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/AsadAbbas026.git"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="#" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>CopyRight 2024 Asad Abbas Rizvi All Reserved<br> Made With <i class="fas fa-heart"></i></p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
